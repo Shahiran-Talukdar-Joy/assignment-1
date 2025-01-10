@@ -1,8 +1,9 @@
 body {
     max-width: 1600px;
+    background-color: rgba(245, 245, 245, 1);
 }
 main {
-    padding: 160px;
+    margin: 0 160px ;
 }
 .newbd-container {
     width: 1280px;
@@ -55,6 +56,7 @@ main {
 .future-vision p {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
 }
 .future-vision .future-goal {
     display: flex;   
@@ -75,7 +77,7 @@ main {
     padding: 32px;
     background-color: rgba(247, 235, 207, 1);
     border-radius: 16px;
-}
+} 
 .future-goal .button {
     border-radius: 8px;
     font-size: 16px;
@@ -106,20 +108,59 @@ main {
 .gov-speech .gov-speech-container p{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
-    line-height: -14px;
+    line-height: 24px;
 }
 .gov-speech .gov-speech-container h3{
     line-height: 24px;
 }
 
-
-
-
-
-
-
-
-
+/* ----------Recent News----------- */
+.recent-news {
+    width: 1280px;
+    /* height: 980px; */
+    height: 1406px;
+}
+.recent-news h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.recent-news p{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.recent-news .news-1 {
+    box-sizing: border-box;
+    display: flex;
+    gap: 24px;
+    width: 1280px;
+    height: 402px;
+    border-radius: 24px;
+    padding: 38px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.recent-news .news-1 img{
+    border-radius: 24px;
+}
+.new-satellite {
+    margin-top: -20px;
+    width: 744px;
+    height: 290px;
+}
+.new-satellite h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.new-satellite button {
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
 
 
 
