@@ -1,0 +1,143 @@
+body {
+    max-width: 1600px;
+}
+main {
+    padding: 160px;
+}
+.newbd-container {
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+.newbd-container .bd2 {
+    width: 622px;
+    height: 326px;
+    padding: 60px 0 117px 117px;
+}
+.bd2 p {
+    font-size: 24px;
+    font-weight: medium;
+    color: rgba(14, 14, 14, 0.5);
+    /* margin-bottom: 20px; */
+}
+.bd2 h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+.bd2 button {
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+}
+.bd-flag {
+    padding: 80px 60px 80px 0;
+}
+
+
+/* Vision Future */
+.future-vision {
+    width: 1280px;
+    height: 765px;
+    margin-bottom: 80px;
+}
+.future-vision h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.future-vision p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.future-vision .future-goal {
+    display: flex;   
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.future-goal .transfomation {
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.future-goal .energy {
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+.future-goal .infrastructure {
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+}
+.future-goal .button {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: semibold;
+    padding: 11px 20px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.future-goal .button-1 {
+    background-color: rgba(84, 144, 245, 1);
+}
+.future-goal .button-2 {
+    background-color: rgba(9, 161, 92, 1);
+}
+.future-goal .button-3{
+    background-color: rgba(255, 194, 57, 1);
+}
+.future-vision .gov-speech{
+    border: 1px solid #C6E4D6;
+    border-radius: 16px;
+    padding: 38px 24px;
+}
+.gov-speech .gov-speech-container {
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.gov-speech .gov-speech-container p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: -14px;
+}
+.gov-speech .gov-speech-container h3{
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
