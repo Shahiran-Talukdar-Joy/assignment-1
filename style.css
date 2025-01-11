@@ -1,7 +1,9 @@
 body {
     max-width: 1600px;
     background-color: rgba(245, 245, 245, 1);
+    font-family: "Fira sans", sans-serif;
 }
+
 main {
     margin: 0 160px ;
 }
@@ -18,7 +20,7 @@ main {
 .newbd-container .bd2 {
     width: 622px;
     height: 326px;
-    padding: 60px 0 117px 117px;
+    padding: 59px 0 117px 117px;
 }
 .bd2 p {
     font-size: 24px;
@@ -27,7 +29,7 @@ main {
     /* margin-bottom: 20px; */
 }
 .bd2 h1 {
-    font-size: 56px;
+    font-size: 53px;
     font-weight: bold;
 }
 .bd2 button {
@@ -64,16 +66,22 @@ main {
     margin-bottom: 32px;
 }
 .future-goal .transfomation {
+    width: 410px;
+    width: 325px;
     padding: 32px;
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
 }
 .future-goal .energy {
+    width: 410px;
+    width: 325px;
     padding: 32px;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 16px;
 }
 .future-goal .infrastructure {
+    width: 410px;
+    width: 325px;
     padding: 32px;
     background-color: rgba(247, 235, 207, 1);
     border-radius: 16px;
@@ -90,12 +98,30 @@ main {
 .future-goal .button-1 {
     background-color: rgba(84, 144, 245, 1);
 }
+.future-goal .button-1:hover {
+    background-color: rgba(8, 85, 218, 0.97);
+    /* clip-path: polygon(10% 0, 100% 0%, 90% 99%, 0% 100%); */
+    border-radius: 20px 0px 20px 0px;
+    transition: all 0.3s ease-in-out;
+}
 .future-goal .button-2 {
     background-color: rgba(9, 161, 92, 1);
 }
+.future-goal .button-2:hover{
+    background-color: rgb(25, 118, 76);
+    border-radius: 20px 0px 20px 0px;
+    transition: all 0.3s ease-in;
+}
+
 .future-goal .button-3{
     background-color: rgba(255, 194, 57, 1);
 }
+.future-goal .button-3:hover{
+    background-color: rgb(213, 153, 13);
+    border-radius: 20px 0px 20px 0px;
+    transition: all 0.3s ease-in;
+}
+
 .future-vision .gov-speech{
     border: 1px solid #C6E4D6;
     border-radius: 16px;
@@ -227,12 +253,111 @@ main {
 }
 
 /*-------------Newsletter--------------*/
+.newsletter-containter {
+width: 1280px;
+height: 395px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+.newsletter-containter  .newsletter {
+width: 750px;
+height: 235px;
+margin: 0px 64px;
+}
+.newsletter-containter  .newsletter h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.newsletter-containter  .newsletter p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
 
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 0 15px 15px 0;
+}
+.newsletter-input input[type="email"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 18px 0 18px 40px;
+    font-weight: 14px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+}
+.subscribe {
+    border: none;
+    outline: none;
+    padding: 18px 50px;
+    background: #006A50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+.newsletter-input .subscribe:hover{
+    background: #02bb49;
+    transition: clip-path 1s ease-in-out;
+}
 
+.hover-button:hover:not(.newsletter .newsletter-input button){
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    background: #02bb49;
+    transition: all 0.3s ease-in;
+}
+.done .hover-button:hover{
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    background: #02bb49;
+    transition: all 0.3s ease-in;
+}
+.donate-card:hover{
+    background-color: rgba(198, 228, 214, 1);
+    transition: all 0.3s ease-in;
+}
+/*-------------Footer-------------*/
+/* footer{
+    width: 1600px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    background: rgb(255, 255, 255);
+    padding: 50px 160px 50px 160px;
+    margin: 80px 0px;
+}
+footer h1{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
 
-
-
-
+}
+footer .hr{
+    position: static;
+    width: 1122px;
+    margin: 32px 0px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+} */
 
 
 
