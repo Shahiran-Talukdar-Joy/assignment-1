@@ -4,6 +4,32 @@ body {
     font-family: "Fira sans", sans-serif;
 }
 
+header {
+    width: 1600px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+nav {
+    padding: 0 160px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav .sign {
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: semi;
+}
+
+
+
 main {
     margin: 0 160px ;
 }
@@ -174,6 +200,7 @@ main {
 .gov-speech .gov-speech-container {
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
+    background-position: top left;
 }
 .gov-speech .gov-speech-container p{
     font-size: 16px;
@@ -298,19 +325,20 @@ main {
 
 /*-------------Newsletter--------------*/
 .newsletter-containter {
-width: 1280px;
-height: 395px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border-radius: 24px;
-background: rgb(198, 228, 214);
+    width: 1280px;
+    height: 395px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-bottom;:80px
 }
 .newsletter-containter  .newsletter {
-width: 750px;
-height: 235px;
-margin: 0px 64px;
+    width: 750px;
+    height: 235px;
+    margin: 0px 64px;
 }
 .newsletter-containter  .newsletter h1{
     color: rgb(14, 14, 14);
@@ -376,34 +404,28 @@ margin: 0px 64px;
     background-color: rgba(198, 228, 214, 1);
     transition: all 0.3s ease-in;
 }
+
 /*-------------Footer-------------*/
-/* footer{
+footer{
     width: 1600px;
     height: 226px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 32;
-    background: rgb(255, 255, 255);
-    padding: 50px 160px 50px 160px;
-    margin: 80px 0px;
+    background-color: white;
+    text-align: center;
 }
 footer h1{
-    color: rgb(14, 14, 14);
+    padding: 50px 0 32px 0;
     font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
 }
-footer .hr{
-    position: static;
-    width: 1122px;
-    margin: 32px 0px;
-    border: 1px solid rgba(14, 14, 14, 0.1);
-} */
-
-
-
+footer hr {
+    color: rgba(14, 14, 14, 0.1);
+    margin: 0px 239px;
+    margin-bottom: 32px;
+}
+.social-media img{
+    width: 24px;
+    margin-left: 24px;
+}
 
 
