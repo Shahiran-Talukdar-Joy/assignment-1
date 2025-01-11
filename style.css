@@ -295,7 +295,7 @@ main {
 .donate-container .done{
     text-align: center;
 }
-.donate-container .done button{
+.donate-container .done button {
     border-radius: 8px;
     color: #FFFFFF;
     background-color: rgba(0, 106, 80, 1);
@@ -316,7 +316,7 @@ main {
     align-items: center;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin-bottom;:80px
+    margin-bottom: 80px
 }
 .newsletter-containter  .newsletter {
     width: 750px;
